@@ -15,8 +15,11 @@
 ![image](https://github.com/user-attachments/assets/2eebebf7-3d17-4291-8906-d5218d10eb07)
   -Содержит формы для обратной связи(муляж)
 Кнопка Тем:
+
 ![image](https://github.com/user-attachments/assets/24b46d61-7265-477f-bed6-04163740869a)
+
   -При нажатии меняет темы со светлой на темную
+  
   ![image](https://github.com/user-attachments/assets/8075d536-50c8-436b-96ac-3e844c5a1e47)
 
 Реализована адаптивная верстка 

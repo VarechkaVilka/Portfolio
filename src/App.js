@@ -38,9 +38,8 @@ function Home() {
   const { theme } = useTheme();
   return (
     <section className={`home ${theme}`}>
-      <h2>Привет! Я SEXUALKA</h2>
-      <p>Фронтенд-разработчик на этом все.</p>
-      <p>Всем СВЭГА!</p>
+      <h2>Привет! Я Вилкова Варвара Александровна</h2>
+      <p>Фронтенд-разработчик, студентка 2 курса МИДиСа. Это мой сайт портфолио.</p>
       <video autoPlay src={myVideo} type="video/webm">
         Ваш браузер не поддерживает видео.
       </video>
@@ -189,7 +188,7 @@ function Contact() {
 
 // Главный компонент Portfolio
 function Portfolio() {
-  const { theme } = useTheme(); // Используем хук useTheme
+  const { theme } = useTheme(); 
   return (
     <Router>
       <div className={`portfolio ${theme}`}>
@@ -210,7 +209,7 @@ function Portfolio() {
                 <Link to="/contact" className='link-li'>Контакты</Link>
               </li>
               <li>
-                <ThemeSwitcher /> {/* Добавляем переключатель темы в навигацию */}
+                <ThemeSwitcher /> 
               </li>
             </ul>
           </nav>
@@ -226,14 +225,13 @@ function Portfolio() {
         </main>
 
         <footer>
-          <p>© {new Date().getFullYear()} SEXUALKA</p>
+          <p>© {new Date().getFullYear()}Вилкова Варвара</p>
         </footer>
       </div>
     </Router>
   );
 }
 
-// Оборачиваем компонент Portfolio в ThemeProvider
 function App() {
   return (
     <ThemeProvider>

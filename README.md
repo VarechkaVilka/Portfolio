@@ -1,3 +1,6 @@
+Отчет по практике
+https://docs.google.com/document/d/1GZkK2FqjuFF4O0Gadw8ZLFhXA3wkkAevAoOfIdeMdcw/edit?usp=sharing
+
 Сайт Портфолио Вилковой Варвары ПИ-230
 
 Главная страница:
